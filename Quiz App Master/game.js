@@ -12,7 +12,6 @@ let questionCounter = 0
 let availableQuesions = []
 
 let questions = []
-cl
 fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple')
 	.then((res) => {
 		return res.json()
